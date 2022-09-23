@@ -152,3 +152,44 @@
     transition: 2s;
 }
 /* Es.10 */
+.ex-10-icon {
+    animation: spin 1s linear infinite;    
+}
+@keyframes spin{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* Es.11 */
+.ex-11-icon:hover {
+    animation: almost-spin 2s linear;
+}
+@keyframes almost-spin{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
