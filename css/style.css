@@ -147,19 +147,7 @@
 }
 @keyframes spin{
     0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(90deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    75% {
-        transform: rotate(270deg);
-    }
-    100% {
-        transform: rotate(360deg);
+        transform: rotate(1turn);
     }
 }
 /* Es.11 */
@@ -168,18 +156,12 @@
 }
 @keyframes almost-spin{
     0% {
-        transform: rotate(0deg);
+        transform: rotate(0);
     }
-    25% {
-        transform: rotate(90deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    75% {
+    85% {
         transform: rotate(270deg);
     }
     100% {
-        transform: rotate(0deg);
+        transform: rotate(0);
     }
 }
